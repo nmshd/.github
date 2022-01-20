@@ -14,6 +14,7 @@ Instead, please send an email to `info[at]enmeshed.eu`.
 
 Please include as much of the information listed below as you can to help us better understand and resolve the issue:
 
+- The repository name or URL
 - The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
 - Full paths of source file(s) related to the manifestation of the issue
 - The location of the affected source code (tag/branch/commit or direct URL)
@@ -23,3 +24,7 @@ Please include as much of the information listed below as you can to help us bet
 - Impact of the issue, including how an attacker might exploit the issue
 
 This information will help us triage your report more quickly.
+
+## Preferred Languages
+
+We prefer all communications to be in English or German.
