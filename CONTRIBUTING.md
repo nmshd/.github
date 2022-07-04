@@ -1,10 +1,10 @@
 # Contribution to Enmeshed
 
-You can contribute to Enmeshed with issues and PRs. Simply filing issues for problems you encounter is a great way to contribute. Contributing implementations is greatly appreciated.
+You can contribute to Enmeshed with issues and PRs. Simply filing issues for problems you encounter is a great way to contribute. Contributing bug fixes or features is greatly appreciated. You can have a look at already filed bugs or feature requests in our [feedback repository](https://github.com/nmshd/feedback/issues) to get started.
 
 ## Reporting Issues
 
-We always welcome bug reports, API proposals and overall feedback. Here are a few tips on how you can make reporting your issue as effective as possible.
+We always welcome bug reports, API proposals, feature requests and overall feedback. Here are a few tips on how you can make reporting your issue as effective as possible.
 
 ### Identify Where to Report
 
@@ -24,7 +24,8 @@ Good bug reports make it easier for maintainers to verify and root cause the und
 - A _minimal reproduction_, i.e. the smallest size of code/configuration required to reproduce the wrong behavior.
 - A description of the _expected behavior_, contrasted with the _actual behavior_ observed.
 - Information on the environment (where applicable): OS/distro, CPU arch, SDK version, etc.
-- Additional information, e.g. is it a regression from previous versions? are there any known workarounds?
+- Used Enmeshed components (App, Connector), Enmeshed Component/Runtime/SDK version(s)
+- Additional information, e.g. is it a regression from previous versions? Are there any known workarounds?
 
 When ready to submit a bug report, please use the [Bug Report issue template](https://github.com/nmshd/feedback/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+).
 
@@ -38,13 +39,13 @@ A reproduction lets maintainers verify the presence of a bug, and diagnose the i
 
 #### Are Minimal Reproductions Required?
 
-In certain cases, creating a minimal reproduction might not be practical (e.g. due to nondeterministic factors, external dependencies). In such cases you would be asked to provide as much information as possible, for example by sharing a memory dump of the failing application. If maintainers are unable to root cause the problem, they might still close the issue as not actionable. While not required, minimal reproductions are strongly encouraged and will significantly improve the chances of your issue being prioritized and fixed by the maintainers.
+In certain cases, creating a minimal reproduction might not be practical (e.g. due to nondeterministic factors, external dependencies). In such cases you would be asked to provide as much information as possible, for example what you did exactly before the application ran into an error. If maintainers are unable to root cause the problem, they might still close the issue as not actionable. While not required, minimal reproductions are strongly encouraged and will significantly improve the chances of your issue being prioritized and fixed by the maintainers.
 
 #### How to Create a Minimal Reproduction
 
 The best way to create a minimal reproduction is gradually removing code and dependencies from a reproducing app, until the problem no longer occurs. A good minimal reproduction:
 
-- Excludes all unnecessary types, methods, code blocks, source files, nuget dependencies and project configurations.
+- Excludes all unnecessary types, methods, code blocks, source files, npm dependencies and project configurations.
 - Contains documentation or code comments illustrating expected vs actual behavior.
 - If possible, avoids performing any unneeded IO or system calls.
 
@@ -72,7 +73,7 @@ Please do not:
 
 ### Breaking Changes
 
-Contributions must maintain API signature and behavioral compatibility. Contributions that include breaking changes will be rejected. Please file an issue to discuss your idea or change if you believe that it may affect compatibility.
+Contributions must maintain API signature and behavioral compatibility. Contributions that include breaking changes will be rejected for the current release and can only be considered for the next major release. Please file an issue to discuss your idea or change if you believe that it may affect compatibility.
 
 ### Suggested Workflow
 
@@ -88,7 +89,7 @@ We use and recommend the following workflow:
    - Name the branch according to our [branching guide](#branching-guide).
    - Branches are useful since they isolate your changes from incoming changes from upstream. They also enable you to create multiple PRs from the same fork.
 4. Make and commit your changes to your branch.
-   - You can run static code checks b running `npm run lint`.
+   - You can run static code checks by running `npm run lint`.
    - You can run tests locally by running `npm run test:local:node`.
    - Please follow our [Commit Messages](#commit-messages) guidance.
 5. Add new tests corresponding to your change, if applicable.
@@ -99,9 +100,9 @@ We use and recommend the following workflow:
 8. Increment the npm package version in the package.json (adhere to [semantic versioning](https://semver.org/)). Run `npm i` to make sure the change is propagated to package-lock.json.
 9. Create a pull request (PR) against the repository's **main** branch or the **release/\*** branch of the release you want to contribute to.
    - State in the description what issue or improvement your change is addressing.
-   - Check if all the Continuous Integration checks are passing.
+   - Check if all the continuous integration checks are passing.
 10. Wait for feedback or approval of your changes from the team.
-11. When the PR is approved, and all checks are green, your PR will be merged.
+11. When the PR is approved and all checks are green, your PR will be merged by the team.
     - This will automatically trigger our continuous deployment pipeline, which builds and publishes a new version.
     - You can delete the branch you used for making the change.
 
@@ -124,14 +125,8 @@ Please format commit messages as follows:
 ```text
 <prefix>: Summarize change in 65 characters or less
 
-Provide more detail after the first line. Leave one blank line below the
+Optionally provide more detail after the first line. Leave one blank line below the
 summary and wrap all lines at 72 characters or less.
-
-If the change fixes an issue, leave another blank line after the final
-paragraph and indicate which issue is fixed in the specific format
-below.
-
-Fix #42
 ```
 
 - `<prefix>`: must be one of `chore`, `feat`, `fix`, `refactor`, `test`
@@ -147,3 +142,7 @@ The Enmeshed continuous integration (CI) system will automatically perform the r
 One or more Enmeshed team members will review every PR prior to merge.
 
 There are lots of thoughts and [approaches](https://github.com/antlr/antlr4-cpp/blob/master/CONTRIBUTING.md#emoji) for how to efficiently discuss changes. It is best to be clear and explicit with your feedback. Please be patient with people who might not understand the finer details about your approach to feedback.
+
+## Code of Conduct
+
+Enmeshed has a [Code of Conduct](/CODE_OF_CONDUCT.md) to which all contributors must adhere.
