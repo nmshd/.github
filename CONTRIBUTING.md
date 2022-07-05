@@ -45,7 +45,7 @@ In certain cases, creating a minimal reproduction might not be practical (e.g. d
 
 The best way to create a minimal reproduction is gradually removing code and dependencies from a reproducing app, until the problem no longer occurs. A good minimal reproduction:
 
-- Excludes all unnecessary types, methods, code blocks, source files, npm dependencies and project configurations.
+- Excludes all unnecessary types, methods, code blocks, source files, dependencies (npm, nuget, ...) and project configurations.
 - Contains documentation or code comments illustrating expected vs actual behavior.
 - If possible, avoids performing any unneeded IO or system calls.
 
@@ -111,7 +111,7 @@ We use and recommend the following workflow:
 Branches must match the following pattern:
 
 ```text
-<prefix>/[<issue-id>]<description>
+<prefix>/[<issue-id>-]<description>
 ```
 
 - `<prefix>`: must be one of `chore`, `feature` or `bugfix`
