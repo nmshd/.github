@@ -111,11 +111,10 @@ We use and recommend the following workflow:
 Branches must match the following pattern:
 
 ```text
-<prefix>/[<issue-id>-]<description>
+<type>/<description>
 ```
 
-- `<prefix>`: must be one of `chore`, `feature` or `bugfix`
-- `issue-id`: id of the GitHub issue created in step 1
+- `<type>`: must be one of `chore`, `feature` or `bugfix`
 - `description`: concise description of the changes
 
 ### Commit Messages
@@ -123,13 +122,13 @@ Branches must match the following pattern:
 Please format commit messages as follows:
 
 ```text
-<prefix>: Summarize change in 65 characters or less
+<type>: Summarize change in 65 characters or less
 
 Optionally provide more detail after the first line. Leave one blank line below the
 summary and wrap all lines at 72 characters or less.
 ```
 
-- `<prefix>`: must be one of `chore`, `feat`, `fix`, `refactor`, `test`
+- `<type>`: must be one of `chore`, `feat`, `fix`, `refactor`, `test`
 
 Also do your best to factor commits appropriately, not too large with unrelated things in the same commit, and not too small with the same small change applied N times in N different commits.
 
