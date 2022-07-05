@@ -122,10 +122,9 @@ Branches must match the following pattern:
 Please format commit messages as follows:
 
 ```text
-<type>: Summarize change in 65 characters or less
+<type>: Summary of the change
 
-Optionally provide more detail after the first line. Leave one blank line below the
-summary and wrap all lines at 72 characters or less.
+Optionally provide more detail after the first line. Leave one blank line below the summary.
 ```
 
 - `<type>`: must be one of `chore`, `feat`, `fix`, `refactor`, `test`
