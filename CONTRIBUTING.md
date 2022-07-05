@@ -133,7 +133,7 @@ Also do your best to factor commits appropriately, not too large with unrelated 
 
 ### PR - CI Process
 
-The Enmeshed continuous integration (CI) system will automatically perform the required builds and run tests (static code checks as well as unit/integration tests) for PRs. Every step of the CI process needs to succeed before the PR can be merged.
+The Enmeshed continuous integration (CI) pipeline will automatically perform the required builds and run tests (static code checks as well as unit/integration tests) for PRs. Every step of the CI process needs to succeed before the PR can be merged.
 
 ### PR Feedback
 
