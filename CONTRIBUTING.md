@@ -99,7 +99,7 @@ We use and recommend the following workflow:
 7. Make sure your branch has all changes from the main/release branch of the source repository.
 8. Increment the npm package version in the package.json (adhere to [semantic versioning](https://semver.org/)). Run `npm i` to make sure the change is propagated to package-lock.json.
 9. Create a pull request (PR) against the repository's **main** branch or the **release/\*** branch of the release you want to contribute to.
-   - State in the description what issue or improvement your change is addressing.
+   - State in the description what issue or improvement your change is addressing (write "closing nmshd/feedback#\<issue-id>" in a separate line).
    - Check if all the continuous integration checks are passing.
 10. Wait for feedback or approval of your changes from the team.
 11. When the PR is approved and all checks are green, your PR will be merged by the team.
