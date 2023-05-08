@@ -2,7 +2,7 @@
 
 **Self-determined data exchange for everyone** - We create a secure data exchange and storage opportunity to allow companies and education providers to communicate with individuals (e.g. applicants, employees or students) in an encrypted way 🔐
 
-👉 To get up to speed quickly, start with our [Documentation](https://github.com/nmshd/documentation)
+👉 To get up to speed quickly, start with our [User-Guide](https://enmeshed.eu/use/basics)
 
 👉 You need more business insights? Visit our [Website](https://enmeshed.de), [LinkedIn](https://www.linkedin.com/showcase/enmeshed), [Twitter](https://twitter.com/enmeshed_jssoft) or [Mastodon](https://mastodon.social/@enmeshed)! 
 
