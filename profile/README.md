@@ -4,7 +4,7 @@
 
 👉 To get up to speed quickly, start with our [Documentation](https://github.com/nmshd/documentation)
 
-👉 You need more business insights? Visit our [Website](https://enmeshed.de/), [LinkedIn](https://www.linkedin.com/showcase/enmeshed/?viewAsMember=true), [Twitter](https://twitter.com/enmeshed_jssoft) or [Mastodon](https://mastodon.social/@enmeshed)! 
+👉 You need more business insights? Visit our [Website](https://enmeshed.de), [LinkedIn](https://www.linkedin.com/showcase/enmeshed), [Twitter](https://twitter.com/enmeshed_jssoft) or [Mastodon](https://mastodon.social/@enmeshed)! 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
