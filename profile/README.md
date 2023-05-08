@@ -1,16 +1,15 @@
-## Hi there 👋
+# **Welcome to enmeshed**
 
-### bkla 
+**Self-determined data exchange for everyone** - We create a secure data exchange and storage opportunity to allow companies and education providers to communicate with individuals (e.g. applicants, employees or students) in an encrypted way 🔐
 
-tolles enmeshed :)
+👉 To get up to speed quickly, start with our [Documentation](https://github.com/nmshd/documentation)
 
-<!--
+👉 You need more business insights? Visit our [Website](https://enmeshed.de/), [LinkedIn](https://www.linkedin.com/showcase/enmeshed/?viewAsMember=true), [Twitter](https://twitter.com/enmeshed_jssoft) or [Mastodon](https://mastodon.social/@enmeshed)! 
 
-**Here are some ideas to get you started:**
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Harassment-free experience for everyone - We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community --> 🌈 [Contribution guidelines](https://github.com/nmshd/.github/blob/main/CODE_OF_CONDUCT.md)
+
+Enmeshed takes the security of our software products and services seriously, including all of the open source code repositories managed through our organization --> 🚓 [Security Policy](https://github.com/nmshd/.github/security/policy)
+
+ ![enmeshed-logo_invertiert klein](https://user-images.githubusercontent.com/128588360/236791065-c04c49ef-a774-4efb-8579-81d54621fd7a.svg)
