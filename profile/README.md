@@ -12,4 +12,4 @@ Harassment-free experience for everyone - We pledge to act and interact in ways 
 
 Enmeshed takes the security of our software products and services seriously, including all of the open source code repositories managed through our organization --> 🚓 [Security Policy](https://github.com/nmshd/.github/security/policy)
 
- ![enmeshed-logo_invertiert klein](https://user-images.githubusercontent.com/128588360/236791065-c04c49ef-a774-4efb-8579-81d54621fd7a.svg)
+![enmeshed-logo_invertiert klein](https://user-images.githubusercontent.com/128588360/236841580-68334789-71e4-4774-9aa4-08fa7881c2ad.svg)
