@@ -8,7 +8,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Harassment-free experience for everyone - We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community --> 🌈 [Contribution guidelines](https://github.com/nmshd/.github/blob/main/CODE_OF_CONDUCT.md)
+Harassment-free experience for everyone - We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community --> 🌈 [Contribution guidelines](https://github.com/nmshd/.github/blob/main/CONTRIBUTING.md) + [Code of conduct](https://github.com/nmshd/.github/blob/main/CODE_OF_CONDUCT.md)
 
 Enmeshed takes the security of our software products and services seriously, including all of the open source code repositories managed through our organization --> 🚓 [Security Policy](https://github.com/nmshd/.github/security/policy)
 
