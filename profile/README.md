@@ -2,7 +2,7 @@
 
 **Self-determined data exchange for everyone** - We create a secure data exchange and storage opportunity to allow companies and education providers to communicate with individuals (e.g. applicants, employees or students) in an encrypted way 🔐
 
-👉 To get up to speed quickly, start with our [User-Guide](https://enmeshed.eu/use/basics)
+👉 To get up to speed quickly, start with our [Integrator-Guide](https://enmeshed.eu/integrate/basics)
 
 👉 You need more business insights? Visit our [Website](https://enmeshed.de), [LinkedIn](https://www.linkedin.com/showcase/enmeshed), [Twitter](https://twitter.com/enmeshed_jssoft) or [Mastodon](https://mastodon.social/@enmeshed)! 
 
@@ -12,4 +12,6 @@ Harassment-free experience for everyone - We pledge to act and interact in ways 
 
 Enmeshed takes the security of our software products and services seriously, including all of the open source code repositories managed through our organization --> 🚓 [Security Policy](https://github.com/nmshd/.github/security/policy)
 
-![enmeshed-logo_invertiert klein](https://user-images.githubusercontent.com/128588360/236841580-68334789-71e4-4774-9aa4-08fa7881c2ad.svg)
+![enmeshed-logo light](https://github.com/nmshd/.github/assets/128588360/baf6e31c-41b5-4fca-8667-85e827786c75#gh-light-mode-only)
+
+![enmeshed-logo dark](https://github.com/nmshd/.github/assets/128588360/93c4743c-69fe-4dbb-a01e-eb8cad474320#gh-dark-mode-only)
